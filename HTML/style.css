@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+body {
+    background-image: url("Background.png");
+	background-size: 1632px;
+	font-family: 'Comfortaa';
+	color: #FF761C;
+	border-color: #FF761C;
+}
+#header {
+	color: #05D8FF;
+}
+#nav {
+	border-radius: 10px;
+	border-style: dashed;
+	width: 55px;
+	padding: 5px;
+	font-size: 20px;
+}
+/* Links */
+a {
+	color: #FF761C;
+}
+#content {
+	color: white;
+}
+#footer {
+	border-style: dashed;
+	border-radius: 10px;
+	width: 225px;
+	padding: 5px;
+	font-size: 25px;
+}
