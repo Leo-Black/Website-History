@@ -1,2 +1,3 @@
 # Website
-A website I'm required to make to earn 4 credits
+
+A media outcome project of a website detailing the history of the programming language Python
