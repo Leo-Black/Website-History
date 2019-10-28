@@ -1,20 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 body {
-    background-image: url("Background.png");
-	background-size: 1632px;
+	width:720px;
+	padding-left: 10px;
+    background-image: url("Background.jpg");
+	background-size: 20px;
 	font-family: 'Comfortaa';
 	color: #FF761C;
 	border-color: #FF761C;
 }
 #header {
 	color: #05D8FF;
+	font-size: 28px;
+	line-height: 20px;
 }
 #nav {
 	border-radius: 10px;
 	border-style: dashed;
-	width: 55px;
+	width: 520px;
 	padding: 5px;
-	font-size: 20px;
+	font-size: 40px;
+	text-align: center;
+	margin: 0 auto;
 }
 /* Links */
 a {
@@ -22,11 +28,14 @@ a {
 }
 #content {
 	color: white;
+	font-size: 18px;
 }
 #footer {
 	border-style: dashed;
 	border-radius: 10px;
 	width: 225px;
+	position: absolute;
+	bottom: 10px;
 	padding: 5px;
 	font-size: 25px;
 }
