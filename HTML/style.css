@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 body {
-	width:720px;
+	width: 720px;
 	padding-left: 10px;
     background-image: url("Background.jpg");
 	background-size: 20px;
@@ -9,6 +9,7 @@ body {
 	border-color: #FF761C;
 }
 #header {
+	width: 1600px;
 	color: #05D8FF;
 	font-size: 28px;
 	line-height: 20px;
@@ -26,9 +27,14 @@ body {
 a {
 	color: #FF761C;
 }
+img {
+	position: absolute;
+	margin: -90px auto;
+}
 #content {
 	color: white;
 	font-size: 18px;
+	line-height: 23px;
 }
 #footer {
 	border-style: dashed;
