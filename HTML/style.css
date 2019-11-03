@@ -1,6 +1,9 @@
+/* Allows the use of the typeface Comfortaa */
 @import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
 body {
+	/* Sets the website's width */
 	width: 720px;
+	/* Pushes everything 10 pixels to the right */
 	padding-left: 10px;
     background-image: url("Background.jpg");
 	background-size: 20px;
@@ -8,6 +11,7 @@ body {
 	color: #FF761C;
 	border-color: #FF761C;
 }
+/* Modifies the title and subtitle, giving it a larger width, font size, leading and a different colour */
 #header {
 	width: 1600px;
 	color: #05D8FF;
@@ -15,11 +19,14 @@ body {
 	line-height: 20px;
 }
 #nav {
+	/* Edits the curvature of the border */
 	border-radius: 10px;
+	/* Sets the nav bar's border style to dashed lines */
 	border-style: dashed;
 	width: 520px;
 	padding: 5px;
 	font-size: 40px;
+	/* Centres the nav bar */
 	text-align: center;
 	margin: 0 auto;
 }
@@ -27,19 +34,23 @@ body {
 a {
 	color: #FF761C;
 }
+/* Puts the Python logo to the left of the nav bar */
 img {
 	position: absolute;
 	margin: -90px auto;
 }
+/* Sets the body text's size, leading and colour */
 #content {
 	color: white;
 	font-size: 18px;
 	line-height: 23px;
 }
+/* Adjusts the footer's border, width, text size and position */
 #footer {
 	border-style: dashed;
 	border-radius: 10px;
 	width: 225px;
+	/* Places the border just below the bottom of the screen */
 	position: absolute;
 	bottom: 10px;
 	padding: 5px;
